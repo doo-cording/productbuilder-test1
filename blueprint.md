@@ -17,6 +17,4 @@ This project is a simple Rock Paper Scissors game implemented using HTML, CSS, a
 
 ## Current Plan
 
-*   **Add Dark Mode:** Implement a dark mode feature with a toggle switch.
-*   **Localize to Korean:** Change the text to Korean and display choices as icons.
-*   **Display Computer's Choice:** Show the computer's move with an icon.
+*   **Update Dark Mode Toggle:** Change the toggle switch to a text button labeled '다크 모드' in the top-right corner.

@@ -3,7 +3,7 @@ const paperButton = document.getElementById('paper');
 const scissorsButton = document.getElementById('scissors');
 const resultDiv = document.getElementById('result');
 const computerChoiceDiv = document.getElementById('computer-choice');
-const themeSwitch = document.getElementById('checkbox');
+const darkModeToggle = document.getElementById('dark-mode-toggle');
 
 const choices = {
     rock: '&#x1f44a;',
@@ -15,7 +15,7 @@ rockButton.addEventListener('click', () => playGame('rock'));
 paperButton.addEventListener('click', () => playGame('paper'));
 scissorsButton.addEventListener('click', () => playGame('scissors'));
 
-themeSwitch.addEventListener('change', () => {
+darkModeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 });
 
